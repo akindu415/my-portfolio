@@ -5,6 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 
+
 interface NavLink {
   path: string
   label: string
@@ -14,7 +15,6 @@ const navLinks: NavLink[] = [
   { path: "/", label: "Home" },
   { path: "/about", label: "About" },
   { path: "/projects", label: "Projects" },
-  { path: "/skills", label: "Skills" },
   { path: "/contact", label: "Contact" },
 ]
 
