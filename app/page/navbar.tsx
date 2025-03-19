@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="text-xl font-bold text-gray-800 dark:text-white">
-            Portfolio
+           My Portfolio
           </Link>
 
           {/* Desktop Navigation */}
@@ -65,7 +65,7 @@ export default function Navbar() {
               <Link
                 key={link.path}
                 href={link.path}
-                className={`relative px-1 py-2 text-sm font-medium transition-colors ${
+                className={`relative px-1 py-2 text-base font-medium transition-colors ${ // Changed text-sm to text-base
                   pathname === link.path
                     ? "text-primary"
                     : "text-gray-700 dark:text-gray-200 hover:text-primary dark:hover:text-primary"
@@ -98,7 +98,7 @@ export default function Navbar() {
                 <Link
                   key={link.path}
                   href={link.path}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  className={`px-3 py-2 rounded-md text-base font-medium transition-colors ${ // Changed text-sm to text-base
                     pathname === link.path
                       ? "bg-primary/10 text-primary"
                       : "text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800"
