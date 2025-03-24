@@ -28,9 +28,9 @@ export default function About() {
       <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white flex flex-col items-center justify-center p-8">
         <h1 className="text-5xl font-bold mb-6">About Me</h1>
         <p className="text-xl max-w-3xl text-center leading-relaxed mb-10">
-          Hi, I'm <span className="text-emerald-400">Akindu Bandara</span>, a 20-year-old aspiring computer science professional with a passion for 
-          problem-solving and innovation. I have a strong foundation in Python and experience with React, Node.js, and Java. 
-          I strive to create impactful digital solutions and continuously improve my technical expertise.
+        Hi, I&apos;m <span className="text-emerald-400">Akindu Bandara</span>, a dedicated student of Computer Science at the University of Westminster. I hail from the vibrant city of 
+            Panadura in Sri Lanka, where my lifelong passion for technology first blossomed. This passion has steered me toward a promising career
+             path focused on Software Development, Cybersecurity, and Data Science.
         </p>
 
         <h2 className="text-3xl font-semibold mb-4 text-emerald-400">My Skills</h2>
